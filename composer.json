@@ -11,7 +11,11 @@
         }
     ],
     "repositories": [
-        { "type": "composer", "url": "https://updates.ez.no/ttl" }
+        { "type": "composer", "url": "https://updates.ez.no/ttl" },
+	{
+	    "type": "vcs",
+	    "url": "https://github.com/ViniTou/ezplatform-admin-ui.git"
+	}
     ],
     "require": {
         "php": "^7.3",
@@ -21,9 +25,9 @@
         "ezsystems/date-based-publisher": "^4.0@dev",
         "ezsystems/doctrine-dbal-schema": "^1.0@dev",
         "ezsystems/ez-support-tools": "^2.0@dev",
-        "ezsystems/ezplatform-admin-ui": "^2.0@dev",
+        "ezsystems/ezplatform-admin-ui": "dev-EZP-30896-use-contenttype-provider as 2.0.x-dev",
         "ezsystems/ezplatform-admin-ui-assets": "^5.0@dev",
-        "ezsystems/ezplatform-admin-ui-modules": "^2.0@dev",
+        "ezsystems/ezplatform-admin-ui-modules": "dev-EZP-30896-content-type-provider as 2.0.x-dev",
         "ezsystems/ezplatform-calendar": "^1.0@dev",
         "ezsystems/ezplatform-core": "^2.0@dev",
         "ezsystems/ezplatform-design-engine": "^3.0@dev",
@@ -31,7 +35,7 @@
         "ezsystems/ezplatform-http-cache": "^1.0@dev",
         "ezsystems/ezplatform-ee-installer": "^3.0@dev",
         "ezsystems/ezplatform-form-builder": "^2.0@dev",
-        "ezsystems/ezplatform-page-builder": "^2.0@dev",
+        "ezsystems/ezplatform-page-builder": "dev-EZP-30896-contenttype-provider as 2.0.x-dev",
         "ezsystems/ezplatform-page-fieldtype": "^2.0@dev",
         "ezsystems/ezplatform-richtext": "^2.0@dev",
         "ezsystems/ezplatform-standard-design": "^0.3@dev",

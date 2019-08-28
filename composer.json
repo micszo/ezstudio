@@ -14,23 +14,11 @@
         { "type": "composer", "url": "https://updates.ez.no/ttl" },
 	{
 	    "type": "vcs",
-	    "url": "https://github.com/webhdx/ezplatform-admin-ui.git"
+	    "url": "https://github.com/dew326/ezplatform-admin-ui.git"
 	},
 	{
 	    "type": "vcs",
-	    "url": "https://github.com/webhdx/ezpublish-kernel.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "https://github.com/webhdx/ezplatform-user.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "https://github.com/webhdx/ez-support-tools.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "https://github.com/webhdx/repository-forms.git"
+	    "url": "https://github.com/dew326/ezplatform-richtext.git"
 	}
     ],
     "require": {
@@ -40,8 +28,8 @@
         "ezsystems/ezplatform-cron": "^3.0@dev",
         "ezsystems/date-based-publisher": "^4.0@dev",
         "ezsystems/doctrine-dbal-schema": "^1.0@dev",
-        "ezsystems/ez-support-tools": "dev-matcher_factory as 2.0.x-dev",
-        "ezsystems/ezplatform-admin-ui": "dev-matcher_factory as 2.0.x-dev",
+        "ezsystems/ez-support-tools": "^2.0@dev",
+        "ezsystems/ezplatform-admin-ui": "dev-ezp-30393-move-ae as 2.0.x-dev",
         "ezsystems/ezplatform-admin-ui-assets": "^5.0@dev",
         "ezsystems/ezplatform-admin-ui-modules": "^2.0@dev",
         "ezsystems/ezplatform-calendar": "^1.0@dev",
@@ -51,15 +39,15 @@
         "ezsystems/ezplatform-http-cache": "^1.0@dev",
         "ezsystems/ezplatform-ee-installer": "^3.0@dev",
         "ezsystems/ezplatform-form-builder": "^2.0@dev",
-        "ezsystems/ezplatform-page-builder": "^2.0@dev",
+        "ezsystems/ezplatform-page-builder": "dev-ezp-30393-move-ae as 2.0.x-dev",
         "ezsystems/ezplatform-page-fieldtype": "^2.0@dev",
-        "ezsystems/ezplatform-richtext": "^2.0@dev",
+        "ezsystems/ezplatform-richtext": "dev-ezp-30393-move-ae as 2.0.x-dev",
         "ezsystems/ezplatform-standard-design": "^0.3@dev",
-        "ezsystems/ezplatform-user": "dev-matcher_factory as 2.0.x-dev",
+        "ezsystems/ezplatform-user": "^2.0@dev",
         "ezsystems/ezplatform-workflow": "^2.0@dev",
-        "ezsystems/ezpublish-kernel": "dev-matcher_factory as 8.0.x-dev",
+        "ezsystems/ezpublish-kernel": "^8.0@dev",
         "ezsystems/flex-workflow": "^4.0@dev",
-        "ezsystems/repository-forms": "dev-matcher_factory as 3.0.x-dev",
+        "ezsystems/repository-forms": "^3.0@dev",
         "ezsystems/ezplatform-rest": "^1.0@dev",
         "ezsystems/ezplatform-solr-search-engine": "^2.0@dev",
         "ezsystems/ezplatform-matrix-fieldtype": "^2.0@dev",

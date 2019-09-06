@@ -36,13 +36,13 @@
         "ezsystems/ez-support-tools": "^1.0@dev",
         "ezsystems/ezplatform-admin-ui": "^1.5@dev",
         "ezsystems/ezplatform-admin-ui-assets": "^4.1.0",
-        "ezsystems/ezplatform-admin-ui-modules": "^1.5@dev",
+        "ezsystems/ezplatform-admin-ui-modules": "dev-introduce-graphql-to-subitems as 1.5.x-dev",
         "ezsystems/ezplatform-core": "^1.0@dev",
         "ezsystems/ezplatform-cron": "^2.0@dev",
         "ezsystems/ezplatform-design-engine": "^2.0@dev",
         "ezsystems/ezplatform-ee-installer": "^2.5@dev",
         "ezsystems/ezplatform-form-builder": "^1.2@dev",
-        "ezsystems/ezplatform-graphql": "^1.0@dev",
+        "ezsystems/ezplatform-graphql": "dev-feature-ezp30726-location_children as 1.0.x-dev",
         "ezsystems/ezplatform-http-cache": "^0.9@dev",
         "ezsystems/ezplatform-http-cache-fastly": "^1.1@dev",
         "ezsystems/ezplatform-matrix-fieldtype": "^1.0@dev",
@@ -55,7 +55,7 @@
         "ezsystems/ezplatform-workflow": "^1.1@dev",
         "ezsystems/ezpublish-kernel": "^7.5@dev",
         "ezsystems/flex-workflow": "^3.2@dev",
-        "ezsystems/repository-forms": "^2.5@dev",
+        "ezsystems/repository-forms": "dev-ezp-30726-tests as 2.5.x-dev",
         "ezsystems/symfony-tools": "~1.0.0@dev",
         "friendsofsymfony/jsrouting-bundle": "^1.6.3",
         "gregwar/captcha-bundle": "^2.0",
@@ -119,7 +119,10 @@
             "eZ\\Bundle\\EzPublishCoreBundle\\Composer\\ScriptHandler::installWelcomeText"
         ],
         "ezplatform-install": [
-            "@php bin/console ezplatform:install ezplatform-ee-clean"
+            "@php bin/console ezplatform:install ezplatform-ee-clean",
+            "@php bin/console ezplatform:graphql:generate-schema",
+            "eZ\\Bundle\\EzPublishCoreBundle\\Composer\\ScriptHandler::clearCache"
+
         ]
     },
     "config": {

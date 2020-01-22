@@ -11,7 +11,15 @@
         }
     ],
     "repositories": [
-        { "type": "composer", "url": "https://updates.ez.no/ttl" }
+        { "type": "composer", "url": "https://updates.ez.no/ttl" },
+      {
+          "type": "vcs",
+          "url": "https://github.com/emodric/ezplatform-solr-search-engine.git"
+      },
+      {
+          "type": "vcs",
+          "url": "https://github.com/emodric/ezpublish-kernel.git"
+      }
     ],
     "replace": {
         "ezsystems/ezstudio": "*",
@@ -49,11 +57,11 @@
         "ezsystems/ezplatform-page-builder": "^1.3@dev",
         "ezsystems/ezplatform-page-fieldtype": "^1.3@dev",
         "ezsystems/ezplatform-richtext": "^1.1@dev",
-        "ezsystems/ezplatform-solr-search-engine": "^1.6@dev",
+        "ezsystems/ezplatform-solr-search-engine": "dev-patch-3 as 1.6.x-dev",
         "ezsystems/ezplatform-standard-design": "^0.2@dev",
         "ezsystems/ezplatform-user": "^1.0@dev",
         "ezsystems/ezplatform-workflow": "^1.1@dev",
-        "ezsystems/ezpublish-kernel": "^7.5@dev",
+        "ezsystems/ezpublish-kernel": "dev-patch-21 as 7.5.x-dev",
         "ezsystems/flex-workflow": "^3.2@dev",
         "ezsystems/repository-forms": "^2.5@dev",
         "ezsystems/symfony-tools": "~1.0.0@dev",

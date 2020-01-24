@@ -11,7 +11,11 @@
         }
     ],
     "repositories": [
-        { "type": "composer", "url": "https://updates.ez.no/ttl" }
+        { "type": "composer", "url": "https://updates.ez.no/ttl" },
+      {
+          "type": "vcs",
+          "url": "https://github.com/dew326/ezplatform-admin-ui-modules.git"
+      }
     ],
     "require": {
         "php": "^7.3",
@@ -20,9 +24,9 @@
         "ezsystems/date-based-publisher": "^4.0@dev",
         "ezsystems/doctrine-dbal-schema": "^1.0@dev",
         "ezsystems/ez-support-tools": "^2.0@dev",
-        "ezsystems/ezplatform-admin-ui": "^2.0@dev",
+        "ezsystems/ezplatform-admin-ui": "dev-ezp-31261-udw-tree as 2.0.x-dev",
         "ezsystems/ezplatform-admin-ui-assets": "^5.0@dev",
-        "ezsystems/ezplatform-admin-ui-modules": "^2.0@dev",
+        "ezsystems/ezplatform-admin-ui-modules": "dev-cannot-load-tree-while-switching as 2.0.x-dev",
         "ezsystems/ezplatform-calendar": "^1.0@dev",
         "ezsystems/ezplatform-core": "^2.0@dev",
         "ezsystems/ezplatform-cron": "^3.0@dev",

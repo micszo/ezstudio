@@ -11,7 +11,23 @@
         }
     ],
     "repositories": [
-        { "type": "composer", "url": "https://updates.ez.no/ttl" }
+        { "type": "composer", "url": "https://updates.ez.no/ttl" },
+      {
+          "type": "vcs",
+          "url": "https://github.com/ezsystems/ezplatform-page-builder"
+      },
+      {
+          "type": "vcs",
+          "url": "https://github.com/ezsystems/ezplatform-page-fieldtype"
+      },
+      {
+          "type": "vcs",
+          "url": "https://github.com/ezsystems/ezplatform-workflow"
+      },
+      {
+          "type": "vcs",
+          "url": "https://github.com/ezsystems/ezplatform-form-builder"
+      }
     ],
     "require": {
         "php": "^7.3",
@@ -20,7 +36,7 @@
         "ezsystems/date-based-publisher": "^4.0@dev",
         "ezsystems/doctrine-dbal-schema": "^1.0@dev",
         "ezsystems/ez-support-tools": "^2.0@dev",
-        "ezsystems/ezplatform-admin-ui": "^2.0@dev",
+        "ezsystems/ezplatform-admin-ui": "dev-ezp_30826 as 2.0.x-dev",
         "ezsystems/ezplatform-admin-ui-assets": "^5.0@dev",
         "ezsystems/ezplatform-admin-ui-modules": "^2.0@dev",
         "ezsystems/ezplatform-calendar": "^1.0@dev",
@@ -30,9 +46,9 @@
         "ezsystems/ezplatform-graphql": "^2.0@dev",
         "ezsystems/ezplatform-http-cache": "^2.0@dev",
         "ezsystems/ezplatform-ee-installer": "^3.0@dev",
-        "ezsystems/ezplatform-form-builder": "^2.0@dev",
-        "ezsystems/ezplatform-page-builder": "^2.0@dev",
-        "ezsystems/ezplatform-page-fieldtype": "^2.0@dev",
+        "ezsystems/ezplatform-form-builder": "dev-ezp_31482 as 2.0.x-dev",
+        "ezsystems/ezplatform-page-builder": "dev-ezp_30826 as 2.0.x-dev",
+        "ezsystems/ezplatform-page-fieldtype": "dev-ezp_31448 as 2.0.x-dev",
         "ezsystems/ezplatform-matrix-fieldtype": "^2.0@dev",
         "ezsystems/ezplatform-query-fieldtype": "^2.0@dev",
         "ezsystems/ezplatform-rest": "^1.0@dev",
@@ -41,10 +57,10 @@
         "ezsystems/ezplatform-solr-search-engine": "^3.0@dev",
         "ezsystems/ezplatform-standard-design": "^0.3@dev",
         "ezsystems/ezplatform-user": "^2.0@dev",
-        "ezsystems/ezplatform-workflow": "^2.0@dev",
-        "ezsystems/ezpublish-kernel": "^8.0@dev",
-        "ezsystems/ezplatform-content-forms": "^1.0@dev",
         "ezsystems/ezplatform-version-comparison": "^1.0@dev",
+        "ezsystems/ezplatform-workflow": "dev-ezp_31469 as 2.0.x-dev",
+        "ezsystems/ezpublish-kernel": "dev-ezp_30826 as 8.0.x-dev",
+        "ezsystems/ezplatform-content-forms": "dev-ezp_31448 as 1.0.x-dev",
         "friendsofsymfony/jsrouting-bundle": "^2.3",
         "knplabs/knp-menu-bundle": "^2.2",
         "monolog/monolog": "^1.25.2",

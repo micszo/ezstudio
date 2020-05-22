@@ -32,7 +32,7 @@
         "ezsystems/ezplatform-graphql": "~2.0.0@dev",
         "ezsystems/ezplatform-http-cache": "~2.0.0@dev",
         "ezsystems/ezplatform-http-cache-fastly": "~2.0.0@dev",
-        "ezsystems/ezplatform-kernel": "~1.0.0@dev",
+        "ezsystems/ezplatform-kernel": "dev-EZP-31644-2.5->1.0 as 1.0.0.x-dev",
         "ezsystems/ezplatform-matrix-fieldtype": "~2.0.0@dev",
         "ezsystems/ezplatform-page-builder": "~2.0.0@dev",
         "ezsystems/ezplatform-page-fieldtype": "~2.0.0@dev",
